@@ -34,7 +34,7 @@ f = fish.select("table:nth-of-type(1) tr td:nth-of-type(10)")
 weather = [u.text.strip().replace(u"\xa0", ", ") for u in f]
 
 
-with open("D:\grace\Documents\StardewFish.csv", "w") as file:
+with open("D:\grace\Documents\PycharmProjects\StardewFish\StardewFish.csv", "w") as file:
     write = csv.writer(file)
 
     data = list(zip(name, location, time, season, weather))
