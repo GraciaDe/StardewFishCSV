@@ -1,48 +1,48 @@
-Name,Location,Time,Season,Weather
-Pufferfish,"Ocean, Ginger Island oceans",12pm – 4pm,Summer(All Seasons on Ginger Island),Sun
-Anchovy,Ocean,Anytime,"Spring, Fall",Any
-Tuna,"Ocean, Ginger Island oceans",6am – 7pm,"Summer, Winter(All Seasons on Ginger Island)",Any
-Sardine,Ocean,6am – 7pm,"Spring, Fall, Winter",Any
-Bream,River (Town+Forest),6pm – 2am,All Seasons,Any
-Largemouth Bass,Mountain Lake,6am – 7pm,All Seasons,Any
-Smallmouth Bass,River (Town)Forest Pond,Anytime,"Spring, Fall",Any
-Rainbow Trout,River (Town+Forest)Mountain Lake,6am – 7pm,Summer,Sun
-Salmon,River (Town+Forest),6am – 7pm,Fall,Any
-Walleye,River (Town+Forest)Forest PondMountain Lake,12pm – 2am,"Fall, Winter with Rain Totem",Rain
-Perch,River (Town+Forest)Forest PondMountain Lake,Anytime,Winter,Any
-Carp,Mountain LakeSecret Woods PondThe Sewers,Anytime,All Seasons,Any
-Catfish,River (Town+Forest)Secret Woods PondWitch's Swamp,6am – 12am,"Spring, Fall(, Spring &, Summer in Secret Woods Pond)",Rain
-Pike,River (Town+Forest)Forest Pond,Anytime,"Summer, Winter",Any
-Sunfish,River (Town+Forest),6am – 7pm,"Spring, Summer","Sun, Wind"
-Red Mullet,Ocean,6am – 7pm,"Summer, Winter",Any
-Herring,Ocean,Anytime,"Spring, Winter",Any
-Eel,Ocean,4pm – 2am,"Spring, Fall",Rain
-Octopus,Ocean,6am – 1pm,Summer,Any
-Red Snapper,Ocean,6am – 7pm,"Summer, Fall, Winter with Rain Totem",Rain
-Squid,Ocean,6pm – 2am,Winter,Any
-Sea Cucumber,Ocean,6am – 7pm,"Fall, Winter",Any
-Super Cucumber,"Ocean, Ginger Island oceans",6pm – 2am,"Summer, Fall(All Seasons on Ginger Island)",Any
-Ghostfish,"Mines (20, 60)Ghost drops",Anytime,All Seasons,Any
-Stonefish,Mines 20F,Anytime,All Seasons,Any
-Ice Pip,Mines 60F,Anytime,All Seasons,Any
-Lava Eel,Mines 100FVolcano Caldera,Anytime,All Seasons,Any
-Sandfish,The Desert,6am – 8pm,All Seasons,Any
-Scorpion Carp,The DesertRequires fishing level 4,6am – 8pm,All Seasons,Any
-Flounder,"Ocean, Ginger Island oceans",6am – 8pm,"Spring, Summer(All Seasons on Ginger Island)",Any
-Midnight Carp,"Mountain Lake,Cindersap Forest pond,Ginger Island pond and river",10pm – 2am,"Fall, Winter(All Seasons on Ginger Island)",Any
-Sturgeon,Mountain Lake,6am – 7pm,"Summer, Winter",Any
-Tiger Trout,River (Town+Forest),6am – 7pm,"Fall, Winter",Any
-Bullhead,Mountain Lake,Anytime,All Seasons,Any
-Tilapia,"Ocean, Ginger Island rivers",6am – 2pm,"Summer, Fall(All Seasons on Ginger Island)",Any
-Chub,Forest RiverMountain Lake,Anytime,All Seasons,Any
-Dorado,River (Forest),6am – 7pm,Summer,Any
-Albacore,Ocean,6am – 11am6pm – 2am,"Fall, Winter",Any
-Shad,River (Town+Forest),9am – 2am,"Spring, Summer, Fall",Rain
-Lingcod,River (Town+Forest)Mountain Lake,Anytime,Winter,Any
-Halibut,Ocean,6am – 11am7pm – 2am,"Spring, Summer, Winter",Any
-Woodskip,Secret Woods PondForest Farm,Anytime,All Seasons,Any
-Void Salmon,Witch's Swamp,Anytime,All Seasons,Any
-Slimejack,Mutant Bug Lair,Anytime,All Seasons,Any
-Stingray,Pirate Cove (Ginger Island),Anytime,All Seasons,Any
-Lionfish,Ginger Island Ocean,Anytime,All Seasons,Any
-Blue Discus,Ginger Island Pond and Rivers,Anytime,All Seasons,Any
+Name,Location,Time,Season,Weather,Used In
+Pufferfish,"Ocean, Ginger Island oceans",12pm – 4pm,Summer(All Seasons on Ginger Island),Sun,Specialty Fish Bundle
+Anchovy,Ocean,Anytime,"Spring, Fall",Any,
+Tuna,"Ocean, Ginger Island oceans",6am – 7pm,"Summer, Winter(All Seasons on Ginger Island)",Any,Ocean Fish Bundle
+Sardine,Ocean,6am – 7pm,"Spring, Fall, Winter",Any,Ocean Fish Bundle
+Bream,River (Town+Forest),6pm – 2am,All Seasons,Any,Night Fishing Bundle
+Largemouth Bass,Mountain Lake,6am – 7pm,All Seasons,Any,Lake Fish Bundle
+Smallmouth Bass,River (Town)Forest Pond,Anytime,"Spring, Fall",Any,
+Rainbow Trout,River (Town+Forest)Mountain Lake,6am – 7pm,Summer,Sun,
+Salmon,River (Town+Forest),6am – 7pm,Fall,Any,
+Walleye,River (Town+Forest)Forest PondMountain Lake,12pm – 2am,"Fall, Winter with Rain Totem",Rain,Night Fishing Bundle
+Perch,River (Town+Forest)Forest PondMountain Lake,Anytime,Winter,Any,
+Carp,Mountain LakeSecret Woods PondThe Sewers,Anytime,All Seasons,Any,Lake Fish Bundle
+Catfish,River (Town+Forest)Secret Woods PondWitch's Swamp,6am – 12am,"Spring, Fall(, Spring &, Summer in Secret Woods Pond)",Rain,River Fish Bundle
+Pike,River (Town+Forest)Forest Pond,Anytime,"Summer, Winter",Any,
+Sunfish,River (Town+Forest),6am – 7pm,"Spring, Summer","Sun, Wind",River Fish Bundle
+Red Mullet,Ocean,6am – 7pm,"Summer, Winter",Any,
+Herring,Ocean,Anytime,"Spring, Winter",Any,
+Eel,Ocean,4pm – 2am,"Spring, Fall",Rain,Night Fishing Bundle
+Octopus,Ocean,6am – 1pm,Summer,Any,
+Red Snapper,Ocean,6am – 7pm,"Summer, Fall, Winter with Rain Totem",Rain,Ocean Fish Bundle
+Squid,Ocean,6pm – 2am,Winter,Any,
+Sea Cucumber,Ocean,6am – 7pm,"Fall, Winter",Any,
+Super Cucumber,"Ocean, Ginger Island oceans",6pm – 2am,"Summer, Fall(All Seasons on Ginger Island)",Any,
+Ghostfish,"Mines (20, 60)Ghost drops",Anytime,All Seasons,Any,Specialty Fish Bundle
+Stonefish,Mines 20F,Anytime,All Seasons,Any,
+Ice Pip,Mines 60F,Anytime,All Seasons,Any,
+Lava Eel,Mines 100FVolcano Caldera,Anytime,All Seasons,Any,
+Sandfish,The Desert,6am – 8pm,All Seasons,Any,Specialty Fish Bundle
+Scorpion Carp,The DesertRequires fishing level 4,6am – 8pm,All Seasons,Any,
+Flounder,"Ocean, Ginger Island oceans",6am – 8pm,"Spring, Summer(All Seasons on Ginger Island)",Any,
+Midnight Carp,"Mountain Lake,Cindersap Forest pond,Ginger Island pond and river",10pm – 2am,"Fall, Winter(All Seasons on Ginger Island)",Any,
+Sturgeon,Mountain Lake,6am – 7pm,"Summer, Winter",Any,Lake Fish Bundle
+Tiger Trout,River (Town+Forest),6am – 7pm,"Fall, Winter",Any,River Fish Bundle
+Bullhead,Mountain Lake,Anytime,All Seasons,Any,Lake Fish Bundle
+Tilapia,"Ocean, Ginger Island rivers",6am – 2pm,"Summer, Fall(All Seasons on Ginger Island)",Any,Ocean Fish Bundle
+Chub,Forest RiverMountain Lake,Anytime,All Seasons,Any,Field Research Bundle
+Dorado,River (Forest),6am – 7pm,Summer,Any,
+Albacore,Ocean,6am – 11am6pm – 2am,"Fall, Winter",Any,
+Shad,River (Town+Forest),9am – 2am,"Spring, Summer, Fall",Rain,River Fish Bundle
+Lingcod,River (Town+Forest)Mountain Lake,Anytime,Winter,Any,
+Halibut,Ocean,6am – 11am7pm – 2am,"Spring, Summer, Winter",Any,
+Woodskip,Secret Woods PondForest Farm,Anytime,All Seasons,Any,Specialty Fish Bundle
+Void Salmon,Witch's Swamp,Anytime,All Seasons,Any,The Missing Bundle
+Slimejack,Mutant Bug Lair,Anytime,All Seasons,Any,
+Stingray,Pirate Cove (Ginger Island),Anytime,All Seasons,Any,
+Lionfish,Ginger Island Ocean,Anytime,All Seasons,Any,
+Blue Discus,Ginger Island Pond and Rivers,Anytime,All Seasons,Any,

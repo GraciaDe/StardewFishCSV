@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup as bs
 import csv
 
+new = []
+
 
 r = requests.get("https://stardewvalleywiki.com/Fish")
 fish = bs(r.content, "html.parser")
@@ -11,7 +13,7 @@ a = fish.select("table:nth-of-type(1) th")
 title = [z.text.strip() for z in a]
 
 
-Headers = [title[1], title[6], title[7], title[8], title[9]]
+Headers = [title[1], title[6], title[7], title[8], title[9], title[13]]
 
 # Name of each fish
 b = fish.select("table:nth-of-type(1) tr td:nth-of-type(2) a[title]:nth-of-type(1)")
@@ -33,13 +35,15 @@ season = [v.text.strip().replace(u"\xa0", ", ") for v in e]
 f = fish.select("table:nth-of-type(1) tr td:nth-of-type(10)")
 weather = [u.text.strip().replace(u"\xa0", ", ") for u in f]
 
+# What each fish can be used in
+g = fish.select('table:nth-of-type(1) tr td:nth-of-type(14)')
+use = ["" if t.find(title="Bundles") is None else t.find(title="Bundles").text for t in g]
 
 
-
-with open("D:\grace\Documents\PycharmProjects\StardewFish\StardewFish.csv", "w", newline='') as file:
+with open("StardewFish.csv", "w", newline='') as file:
     write = csv.writer(file)
 
-    data = list(zip(name, location, time, season, weather))
+    data = list(zip(name, location, time, season, weather, use))
     data.insert(0, Headers)
 
     for row in data:
